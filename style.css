@@ -1,0 +1,325 @@
+*{
+    margin: 0;
+    padding: auto;
+}
+body{
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+.container{
+    width: 70%;
+    margin: auto;
+}
+.container-2{
+    width: 80%;
+    margin: auto;
+}
+p{
+    font-weight: 400;
+    color: hsl(201, 11%, 66%);
+}
+h1, h2, h3{
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+}
+.intro-part{
+    background-image: url(./images/bg-header-desktop.png);
+    width: 100%;
+    height: 520px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.intro-pic{
+    padding-bottom: 40px;
+}
+.intro-text h1{
+    padding-bottom: 20px;
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.intro-text p{
+    padding-bottom: 30px;
+    color: hsl(201, 11%, 66%);
+}
+.green-button, .blue-button{
+    background-color: hsl(171, 66%, 44%);
+    border: none;
+    border-radius: 30px;
+    color: white;
+    padding: 15px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    cursor: pointer;
+}
+.blue-button{
+    background-color: hsl(233, 100%, 69%);
+}
+.button-div{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+}
+.snippets-div{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+h2{
+    font-size: 36px;
+    padding-bottom: 30px;
+}
+.snippets-div p{
+    padding-bottom: 30px;
+    font-size: 18px;
+}
+.features-flex{
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+.computer-box img{
+    height: 500px;
+    width: 100%;
+    object-fit: contain;
+}
+.features-box{
+    padding: 80px;
+}
+.features-box h3{
+    font-size: 1.5em;
+    padding-bottom: 10px;
+}
+.features-box p{
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+.access-flex{
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.access-text{
+    padding-bottom: 60px;
+}
+
+.access-images img{
+    height: 500px;
+    width: 100%;
+    object-fit: contain;
+}
+.super-box{
+
+    display: flex;
+    text-align: center;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+.three-section{
+    padding-bottom: 40px;
+}
+.list-section{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-all svg{
+    padding-bottom: 30px;
+}
+.section-all h3{
+    padding-bottom: 30px;
+}
+.social-medias{
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+.social-logo{
+    display: flex;
+    height: 150px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.social-logo img{
+    object-fit: cover;
+    width: 100%;
+}
+
+
+.clipboard-flex{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.clipboard-flex p{
+    padding-bottom: 30px;
+}
+
+
+.footer-div{
+    background-color: hsla(201, 11%, 66%, 30%);
+}
+
+.footer-sections{
+    display: flex;
+    height: 150px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.footer-icon img{
+    width: 50%;
+    height: 50%;
+}
+
+.list-footer ul{
+    columns: 3;
+    column-gap: 80px;
+    text-align: left;
+    list-style-type: none;
+}
+
+.list-footer li{
+    margin-bottom: 10px;
+}
+
+.list-footer a{
+    text-decoration: none;
+    color: hsl(210, 10%, 33%);
+    font-weight: 600;
+}
+.icons-footer{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+@media screen and (max-width: 600px) {
+    .button-div{
+        flex-direction: column;
+    }
+    .intro-part{
+        background-image: url(./images/bg-header-mobile.png);
+        height: 700px;
+    }
+    .intro-text h1{
+        font-size: 36px;
+    }
+    h2{
+        font-size: 32px;
+    }
+    h3{
+        font-size: 1em;
+    }
+    p{
+        font-size: 14px;
+    }
+    .container-2, .container{
+        width: 90%;
+    }
+    .features-flex{
+        flex-direction: column; 
+        justify-content: center;   
+        width: 90%;
+        height: 720px;
+        margin: auto;
+    }
+    .computer-box img{
+        height: 400px;
+    }
+    .button-div{
+        width: 70%;
+        margin: auto;
+        gap: 20px;
+    }
+    .footer-sections {
+        flex-direction: column;
+        height: 300px;
+        justify-content: space-around;
+    }
+    .list-footer ul{
+        columns: 1;
+        padding-bottom: 20px;
+    }
+    .features-box{
+        padding: 0px;
+        text-align: center;
+    }
+    .access-flex{
+        height: 600px;
+    }
+    .access-images img{
+        height: 200px;
+    }
+    .super-box{
+        height: 150px;
+    }
+    .list-section{
+        height: 620px;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .social-medias{
+        padding-bottom: 0px;
+        padding-top: 0px;
+    }
+    .social-logo{
+        flex-direction: column;
+        height: 400px;
+        height: 600px;
+    }
+    .clipboard-main{
+        height: 600px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .clipboard-flex{
+        height: 300px;
+    }
+    .footer-sections{
+        justify-content: space-around;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .footer-icon img{
+        width: 50%;
+        height: auto;
+        padding-bottom: 20px;
+    }
+    .icons-footer{
+        gap: 30px;
+    }
+    .list-footer li{
+        margin-bottom: 25px;
+    }
+    
+}
